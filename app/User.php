@@ -43,7 +43,7 @@ class User extends Authenticatable
     }
 
     // one to many relationship
-    public function posts() {
-        return $this.hasMany('App\Model\Post');
-    }
+    // public function posts() {
+    //     return $this.hasMany('App\Model\Post');
+    // }
 }
